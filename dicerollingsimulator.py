@@ -1,17 +1,19 @@
 import random
 import sys
 print("Welcome to dice rolling simulator!")
+def diceroll(n):
+    whil
+    random.randint(1,6)
 while True:
+    n = input("Enter the number of dice you want to roll or press 'e' to exit: ")
     y = input("Press 'y' to roll or press 'e'  to exit: ")
     z = 1
     a = 0
     while y == 'y' and a < 1:
-        x = random.randint(1,6)
-        print("You rolled a %(x1)d." %
-            {'x1':x})
+        print("You rolled a",n)
         a = z 
-    while y == 'e':
-        sys.exit()
+    while y or n == 'e':
+            sys.exit()
 
 
 
